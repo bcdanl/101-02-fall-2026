@@ -93,7 +93,7 @@ nrow(q2)
 # Sort flights to find the most delayed flights by departure delay (dep_delay), 
 # with the largest delay first.
 
-q3_asec <- flights |> 
+q3_asce <- flights |> 
   arrange(dep_delay) |> 
   head(5)
 
