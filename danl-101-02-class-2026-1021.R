@@ -1,4 +1,6 @@
 library(tidyverse)
+
+# gg in ggplot means "grammar of graphics"
 mpg <- ggplot2::mpg
 
 ?mpg
