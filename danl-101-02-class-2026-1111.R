@@ -189,6 +189,6 @@ ggplot(data = ny_customers,
                      color = housing_type,
                      shape = housing_type)) +
   geom_point(alpha = .3, size = 2) +
-  geom_smooth() +
+  geom_smooth() + 
   scale_color_tableau()
 
